@@ -1,16 +1,15 @@
 ---
-title: Example Post
+title: 示例文章
 date: 2026-01-01
-category: Notes
+category: 随笔
 tags:
-  - Example
-desc: A short summary shown on the home page. If omitted, the beginning of the body is used.
+  - 示例
+desc: 首页显示的简介。不填则会自动截取正文开头。
 ---
 
-## A heading
+## 一级标题
 
-Write your content here. Markdown is fully supported, including code blocks
-with syntax highlighting for every language.
+在这里写正文。完整支持 Markdown，包括带语法高亮的代码块（覆盖所有语言）。
 
 ```python
 def greet(name: str) -> str:
@@ -21,12 +20,12 @@ def greet(name: str) -> str:
 Get-ChildItem -Path C:\ | Where-Object { $_.Length -gt 0 }
 ```
 
-### A sub-heading
+### 二级标题
 
-- Lists
-- **Bold**, *italic*, `inline code`
-- [Links](https://example.com)
+- 列表
+- **加粗**、*斜体*、`行内代码`
+- [链接](https://example.com)
 
-> Blockquotes work too.
+> 引用块同样支持。
 
-#### The smallest heading
+#### 最小标题
