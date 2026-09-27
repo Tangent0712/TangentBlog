@@ -1,6 +1,6 @@
 # TangentBlog
 
-一个使用 **Vue 3 + Vite** 搭建的个人博客骨架。文章是带 YAML frontmatter 的纯 Markdown 文件，在构建时加载。整体是紧凑的复古终端风、等宽字体布局，支持明暗主题。
+一个使用 **Vue 3 + Vite** 搭建的个人博客骨架。文章是带 YAML frontmatter 的纯 Markdown 文件，在构建时加载。整体是紧凑的二次元风格、等宽字体布局，支持明暗主题。
 
 ## 功能特性
 
