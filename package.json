@@ -1,0 +1,22 @@
+{
+  "name": "tangent-blog",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "dependencies": {
+    "highlight.js": "^11.12.0",
+    "marked": "^15.0.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.1"
+  }
+}

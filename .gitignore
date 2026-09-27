@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist.tar.gz
+*.map
+
+# OS
+.DS_Store
+
+# Local environment / deployment secrets
+.env
+.env.local
+
+# Local-only site configuration (real names, contacts, links, beian)
+src/config/site.local.js
+
+# Local-only blog posts. The open-source skeleton ships without content;
+# add your own .md files here (see docs/example-post.md for the format).
+src/posts/*.md
+
+# Local-only publishing tool (server-coupled)
+obsidian-blog-publisher/
