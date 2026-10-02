@@ -12,6 +12,8 @@ const local = localModules['./site.local.js']?.default ?? {}
 const defaults = {
   title: 'My Blog',
   author: 'Your Name',
+  // Favicon path (see public/). Default is the bundled generic icon.
+  favicon: '/favicon.svg',
   // Avatar image URL. Leave empty to show the first letter of the author name.
   avatar: '',
   // ICP / public security filing lines shown in the sidebar. Leave empty to hide.

@@ -4,6 +4,7 @@
 export default {
   title: 'My Blog',
   author: 'Your Name',
+  favicon: '/favicon.local.png',
   avatar: 'https://img.example.com/avatar.jpg',
   beian: ['ICP备00000000号'],
   about: {
@@ -18,6 +19,8 @@ export default {
     sections: [
       {
         title: 'Tech Stack',
+        // `text` is optional: a paragraph shown above the rows.
+        text: 'A sentence introducing the rows below.',
         rows: [{ name: 'Frontend', value: 'Vue3 / TypeScript' }],
       },
     ],

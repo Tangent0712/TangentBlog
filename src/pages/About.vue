@@ -18,7 +18,7 @@
           <div class="about-kaomoji">૮ ´͈ ᗜ `͈ ა♡</div>
         </div>
         <div class="about-info-col">
-          <div class="about-intro">
+          <div class="about-intro" v-if="site.about.intro && site.about.intro.length">
             <div v-for="line in site.about.intro" :key="line">{{ line }}</div>
           </div>
           <div class="about-contact-card">
@@ -35,6 +35,7 @@
     <div class="skill-card" v-for="section in site.about.sections" :key="section.title">
       <div class="skill-header">✦ {{ section.title }}</div>
       <div class="skill-list">
+        <p v-if="section.text" class="skill-text">{{ section.text }}</p>
         <div class="skill-row" v-for="row in section.rows" :key="row.name">
           <span class="skill-name">{{ row.name }}</span>
           <span class="skill-value" v-html="row.value"></span>

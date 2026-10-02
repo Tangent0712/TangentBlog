@@ -76,7 +76,7 @@ export default {
     contactsTitle: '联系方式',
     intro: ['✦ 一句话介绍自己'],
     contacts: [{ label: 'GitHub', values: ['github.com/yourname'] }],
-    sections: [{ title: '技术栈', rows: [{ name: '前端', value: 'Vue3' }] }],
+    sections: [{ title: '技术栈', text: '（可选）该段会显示在要点上方', rows: [{ name: '前端', value: 'Vue3' }] }],
   },
   links: [
     { name: '友链名称', url: 'https://example.com', avatar: '', desc: '简短描述' },

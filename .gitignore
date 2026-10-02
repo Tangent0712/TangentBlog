@@ -14,6 +14,9 @@ dist.tar.gz
 # Local-only site configuration (real names, contacts, links, beian)
 src/config/site.local.js
 
+# Local-only favicon (personal avatar)
+public/favicon.local.png
+
 # Local-only blog posts. The open-source skeleton ships without content;
 # add your own .md files here (see docs/example-post.md for the format).
 src/posts/*.md

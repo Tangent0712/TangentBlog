@@ -271,6 +271,7 @@ a{color:inherit;text-decoration:none}
 .skill-card{background:var(--c-card-bg);border:2px solid var(--c-border);margin-bottom:14px}
 .skill-header{padding:6px 16px;background:var(--c-pink);font-size:13px;font-weight:700;color:#2d2d2d}
 .skill-list{display:flex;flex-direction:column;gap:10px;padding:12px 18px}
+.skill-text{font-size:12px;line-height:1.7;color:var(--c-text-dim)}
 .skill-row{display:flex;align-items:center;gap:10px;font-size:12px}
 .skill-name{padding:3px 10px;background:var(--c-green);border:1px solid var(--c-border);font-weight:700;color:#2d2d2d;min-width:52px;text-align:center;flex-shrink:0}
 .skill-value{flex:1;color:var(--c-text)}
